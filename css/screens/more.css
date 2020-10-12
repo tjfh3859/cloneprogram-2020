@@ -60,6 +60,30 @@
 
 .more-weather__today {
   font-size: 30px;
+  transition: ;
+}
+
+@keyframes cloudAnimation {
+  0% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(5px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.more-weather__today i:hover {
+  animation: cloudAnimation 3s linear infinite;
 }
 
 .more-weather__tomorrow-title span {
@@ -77,4 +101,8 @@
   font-weight: 600;
   font-size: 15px;
   margin-bottom: 5px;
+}
+
+.more-weather__tomorrow i:hover {
+  animation: cloudAnimation 3s linear infinite;
 }
