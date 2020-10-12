@@ -12,6 +12,22 @@
   font-weight: 600;
 }
 
+.screen-header_icons {
+  display: flex;
+}
+
 .screen-header_icons span {
   margin-left: 25px;
+}
+
+.screen-header_badge {
+  position: relative;
+  top: -20px;
+  left: 48px;
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 15px;
+  color: white;
+  font-weight: 600;
 }
