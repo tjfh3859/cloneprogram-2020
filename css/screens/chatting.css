@@ -1,3 +1,41 @@
 #chat-screen {
   background-color: #abc1d1;
+  height: 10000vh;
+}
+
+#chat-screen .alt-header,
+#chat-screen .status-bar {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #abc1d1;
+}
+
+#chat-screen .alt-header {
+  top: 10px;
+  z-index: 1;
+}
+
+#chat-screen .status-bar {
+  z-index: 2;
+}
+
+.main-chat {
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat__timestamp {
+  color: white;
+  background-color: #92a4b2;
+  padding: 15px;
+  border-radius: 25px;
+  font-size: 15px;
+}
+
+.message-row {
+  width: 100%;
 }
