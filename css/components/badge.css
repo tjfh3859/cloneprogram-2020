@@ -9,3 +9,24 @@
   color: white;
   font-weight: 600;
 }
+
+.badage__exclamation {
+  border: 2px solid tomato;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  margin-left: 5px;
+}
+
+.badage__exclamation i {
+  margin-top: 1px;
+  margin-right: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: tomato;
+}

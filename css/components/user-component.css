@@ -53,3 +53,8 @@ user-component__avatar--sm {
   display: block;
   margin-bottom: 10px;
 }
+
+.user-component__phone-number {
+  display: flex;
+  align-items: center;
+}
