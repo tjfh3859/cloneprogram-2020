@@ -38,3 +38,43 @@
   font-size: 32px;
   color: white;
 }
+
+.more-weather {
+  margin-top: 40px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.more-weather__location {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.more-weather__info {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.more-weather__today {
+  font-size: 30px;
+}
+
+.more-weather__tomorrow-title span {
+  font-weight: 600;
+}
+
+.more-weather__tomorrow {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+.more-weather__tomorrow span {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
